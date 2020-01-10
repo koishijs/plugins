@@ -1,6 +1,6 @@
 {
   "name": "@koishijs/plugin-latex",
-  "description": "Render LaTeX in Koishi",
+  "description": "Roll Dices in Koishi",
   "main": "index.js",
   "version": "1.0.0",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/koishijs/plugins/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-latex#readme",
+  "homepage": "https://github.com/koishijs/plugins/plugin-roll#readme",
   "keywords": [
     "bot",
     "qqbot",
@@ -21,12 +21,7 @@
     "chatbot",
     "koishi",
     "plugin",
-    "latex",
-    "render",
-    "zhihu"
-  ],
-  "dependencies": {
-    "axios": "^0.19.1",
-    "sharp": "^0.23.4"
-  }
+    "roll",
+    "dice"
+  ]
 }
