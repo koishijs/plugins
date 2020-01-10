@@ -1,6 +1,6 @@
 {
-  "name": "@koishijs/plugin-wolfram-alpha",
-  "description": "Use WolframAlpha in Koishi",
+  "name": "@koishijs/plugin-code-runner",
+  "description": "Execute JavaScript in Koishi",
   "main": "index.js",
   "version": "1.0.0",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/koishijs/plugins/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-wolfram-alpha#readme",
+  "homepage": "https://github.com/koishijs/plugins/plugin-code-runner#readme",
   "keywords": [
     "bot",
     "qqbot",
@@ -21,14 +21,12 @@
     "chatbot",
     "koishi",
     "plugin",
-    "wolfram",
-    "search",
-    "wolframalpha"
+    "vm",
+    "runner",
+    "code"
   ],
   "dependencies": {
-    "axios": "^0.19.1",
-    "koishi-core": "^1.2.0",
     "koishi-utils": "^1.0.2",
-    "xml-js": "^1.6.11"
+    "vm2": "^3.8.4"
   }
 }
