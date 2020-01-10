@@ -1,3 +1,3 @@
 # @koishijs/plugin-wolfram-alpha
 
-Use WolframAlpha in Koishi.
+Use [WolframAlpha](https://www.wolframalpha.com/) in Koishi.
