@@ -1,0 +1,34 @@
+{
+  "name": "@koishijs/plugin-wolfram-alpha",
+  "description": "WolframAlpha support for Koishi",
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/plugins/issues"
+  },
+  "homepage": "https://github.com/koishijs/plugins/plugin-wolfram-alpha#readme",
+  "keywords": [
+    "bot",
+    "qqbot",
+    "cqhttp",
+    "coolq",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "wolfram",
+    "search",
+    "wolframalpha"
+  ],
+  "dependencies": {
+    "axios": "^0.19.1",
+    "koishi-core": "^1.2.0",
+    "koishi-utils": "^1.0.2",
+    "xml-js": "^1.6.11"
+  }
+}

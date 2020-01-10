@@ -1,2 +1,2 @@
-# plugins
- 
+# Official Plugins for Koishi
+
