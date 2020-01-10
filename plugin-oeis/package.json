@@ -1,6 +1,6 @@
 {
-  "name": "@koishijs/plugin-latex",
-  "description": "Roll Dices in Koishi",
+  "name": "@koishijs/plugin-oeis",
+  "description": "Use OEIS in Koishi",
   "main": "index.js",
   "version": "1.0.0",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/koishijs/plugins/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-roll#readme",
+  "homepage": "https://github.com/koishijs/plugins/plugin-oeis#readme",
   "keywords": [
     "bot",
     "qqbot",
@@ -21,11 +21,11 @@
     "chatbot",
     "koishi",
     "plugin",
-    "roll",
-    "dice"
+    "sequence",
+    "oeis",
+    "search"
   ],
   "dependencies": {
-    "koishi-core": "^1.2.0",
-    "koishi-utils": "^1.0.2"
+    "axios": "^0.19.1"
   }
 }
