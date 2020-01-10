@@ -15,7 +15,9 @@ function format (format: string, ...param: any[]) {
   return formatWithOptions({ depth: 1 }, format, ...param)
 }
 
-export default function apply (ctx, options) {
+module.exports.name = 'code-runner'
+
+module.exports.apply = (ctx, options) => {
   options = { ...defaultOptions, ...options }
 
   const vm = new VM({

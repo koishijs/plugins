@@ -13,6 +13,8 @@ function extractData (subpod, inline = false) {
   }
 }
 
+module.exports.name = 'wolfram-alpha'
+
 module.exports.apply = (ctx, { appid } = {}) => {
   if (!appid) throw new Error('missing configuration "appid"')
 
