@@ -7,6 +7,7 @@
 | [plugin-code-runner](https://github.com/koishijs/plugins/tree/master/plugin-code-runner) | 执行 JavaScript |
 | [plugin-latex](https://github.com/koishijs/plugins/tree/master/plugin-latex) | 渲染 LaTeX |
 | [plugin-magi](https://github.com/koishijs/plugins/tree/master/plugin-magi) | 调用 [Magi](https://magi.com/) |
+| [plugin-maya](https://github.com/koishijs/plugins/tree/master/plugin-maya) | 计算玛雅日历 |
 | [plugin-mcping](https://github.com/koishijs/plugins/tree/master/plugin-mcping) | 获取 Minecraft 服务器信息 |
 | [plugin-oeis](https://github.com/koishijs/plugins/tree/master/plugin-oeis) | 调用 [OEIS](https://oeis.org/) |
 | [plugin-qrcode](https://github.com/koishijs/plugins/tree/master/plugin-qrcode) | 生成二维码 |
