@@ -9,6 +9,7 @@
 | [plugin-magi](https://github.com/koishijs/plugins/tree/master/plugin-magi) | 调用 [Magi](https://magi.com/) |
 | [plugin-mcping](https://github.com/koishijs/plugins/tree/master/plugin-mcping) | 获取 Minecraft 服务器信息 |
 | [plugin-oeis](https://github.com/koishijs/plugins/tree/master/plugin-oeis) | 调用 [OEIS](https://oeis.org/) |
+| [plugin-qrcode](https://github.com/koishijs/plugins/tree/master/plugin-qrcode) | 生成二维码 |
 | [plugin-roll](https://github.com/koishijs/plugins/tree/master/plugin-roll) | 掷骰子 |
 | [plugin-wolfram-alpha](https://github.com/koishijs/plugins/tree/master/plugin-wolfram-alpha) | 调用 [WolframAlpha](https://www.wolframalpha.com/) |
 

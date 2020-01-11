@@ -1,0 +1,30 @@
+{
+  "name": "@koishijs/plugin-qrcode",
+  "description": "Generate QR codes in Koishi",
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/plugins/issues"
+  },
+  "homepage": "https://github.com/koishijs/plugins/plugin-qrcode#readme",
+  "keywords": [
+    "bot",
+    "qqbot",
+    "cqhttp",
+    "coolq",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "qrcode",
+    "render"
+  ],
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  }
+}
