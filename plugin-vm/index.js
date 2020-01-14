@@ -26,7 +26,11 @@ module.exports.apply = (ctx, options) => {
   })
 
   const koishi = new class Koishi {
-    log = (message, ...args) => {
+    constructor () {
+      this.log = this.log.bind(this)
+    }
+
+    log (message, ...args) {
       if (++this.logCount > options.maxLogCount) return
       return meta.$send(format(message, ...args))
     }
