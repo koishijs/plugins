@@ -32,7 +32,7 @@ module.exports.apply = (ctx, options) => {
 
     log (message, ...args) {
       if (++this.logCount > options.maxLogCount) return
-      return meta.$send(format(message, ...args))
+      return this.meta.$send(format(message, ...args))
     }
   }
 
