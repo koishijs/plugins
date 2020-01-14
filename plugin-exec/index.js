@@ -9,7 +9,7 @@ module.exports.apply = (ctx, options) => {
     .action(async ({ meta }, expression) => {
       if (!expression) return
       expression = CQCode.unescape(expression)
-      const child = exec(expression)
+      const child = exec(expression, { cwd: process.cwd() })
       child.stdout.on('data', data => meta.$send(String(data).trim()))
       child.stderr.on('data', data => meta.$send(String(data).trim()))
     })
