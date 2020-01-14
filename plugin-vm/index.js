@@ -11,11 +11,11 @@ const defaultOptions = {
   maxLogCount: 4,
 }
 
-function format (format: string, ...param: any[]) {
+function format (format, ...param) {
   return formatWithOptions({ depth: 1 }, format, ...param)
 }
 
-module.exports.name = 'code-runner'
+module.exports.name = 'vm'
 
 module.exports.apply = (ctx, options) => {
   options = { ...defaultOptions, ...options }
@@ -26,7 +26,7 @@ module.exports.apply = (ctx, options) => {
   })
 
   const koishi = new class Koishi {
-    log = (message: string, ...args: any[]) => {
+    log = (message, ...args) => {
       if (++this.logCount > options.maxLogCount) return
       return meta.$send(format(message, ...args))
     }

@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-qrcode",
+  "name": "koishi-plugin-qrcode",
   "description": "Generate QR codes in Koishi",
   "main": "index.js",
   "version": "1.0.0",

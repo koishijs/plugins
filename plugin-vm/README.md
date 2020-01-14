@@ -1,3 +1,3 @@
-# @koishijs/plugin-code-runner
+# koishi-plugin-vm
 
 Execute JavaScript in Koishi.

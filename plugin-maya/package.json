@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-maya",
+  "name": "koishi-plugin-maya",
   "description": "Calculate Maya Date in Koishi",
   "main": "index.js",
   "version": "1.0.0",

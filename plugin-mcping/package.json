@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-mcping",
+  "name": "koishi-plugin-mcping",
   "description": "Ping a Minecraft Server in Koishi",
   "main": "index.js",
   "version": "1.0.0",

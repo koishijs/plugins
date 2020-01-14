@@ -1,3 +1,3 @@
-# @koishijs/plugin-qrcode
+# koishi-plugin-qrcode
 
 Generate QR codes in Koishi.

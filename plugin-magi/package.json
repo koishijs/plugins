@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-magi",
+  "name": "koishi-plugin-magi",
   "description": "Use Magi in Koishi",
   "main": "index.js",
   "version": "1.0.0",

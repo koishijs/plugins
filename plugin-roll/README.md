@@ -1,3 +1,3 @@
-# @koishijs/plugin-roll
+# koishi-plugin-roll
 
 Roll Dices in Koishi.

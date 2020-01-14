@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-oeis",
+  "name": "koishi-plugin-oeis",
   "description": "Use OEIS in Koishi",
   "main": "index.js",
   "version": "1.0.0",

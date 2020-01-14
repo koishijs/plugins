@@ -1,34 +1,15 @@
-# Official Plugins for Koishi
+# [Official Plugins for Koishi](https://koishi.js.org/plugins/)
 
 这个仓库包含了一些用于 Koishi 的小插件。
 
-| 名称 | 功能 |
-|:--|:--|
-| [plugin-code-runner](https://github.com/koishijs/plugins/tree/master/plugin-code-runner) | 执行 JavaScript |
-| [plugin-latex](https://github.com/koishijs/plugins/tree/master/plugin-latex) | 渲染 LaTeX |
-| [plugin-magi](https://github.com/koishijs/plugins/tree/master/plugin-magi) | 调用 [Magi](https://magi.com/) |
-| [plugin-maya](https://github.com/koishijs/plugins/tree/master/plugin-maya) | 计算玛雅日历 |
-| [plugin-mcping](https://github.com/koishijs/plugins/tree/master/plugin-mcping) | 获取 Minecraft 服务器信息 |
-| [plugin-oeis](https://github.com/koishijs/plugins/tree/master/plugin-oeis) | 调用 [OEIS](https://oeis.org/) |
-| [plugin-qrcode](https://github.com/koishijs/plugins/tree/master/plugin-qrcode) | 生成二维码 |
-| [plugin-roll](https://github.com/koishijs/plugins/tree/master/plugin-roll) | 掷骰子 |
-| [plugin-wolfram-alpha](https://github.com/koishijs/plugins/tree/master/plugin-wolfram-alpha) | 调用 [WolframAlpha](https://www.wolframalpha.com/) |
-
-## 内置的官方插件
-
-下面的插件已经或计划内置于 Koishi 中，你可以在[这个仓库](https://github.com/koishijs/koishi)找到它们：
-
-| 名称 | 功能 |
-|:--|:--|
-| [plugin-common](https://github.com/koishijs/koishi/tree/master/packages/plugin-common) | 常用功能 |
-| [plugin-schedule](https://github.com/koishijs/koishi/tree/master/packages/plugin-schedule) | 设置计划任务 |
-| [plugin-teach](https://github.com/koishijs/koishi/tree/master/packages/plugin-teach) | 教学功能 |
-
-## 其他官方插件
-
-下面的插件较为复杂，它们将各自拥有自己的仓库：
-
-| 名称 | 功能 |
-|:--|:--|
-| [plugin-image-search](https://github.com/koishijs/plugin-image-search) | 搜图 |
-| [plugin-github-webhook](https://github.com/koishijs/plugin-github-webhook) | 接入 [GitHub Webhook](https://developer.github.com/webhooks/) |
+| 名称 | 版本 | 功能 |
+|:--|:--|:--|
+| [plugin-latex](https://github.com/koishijs/plugins/tree/master/plugin-latex) | [![npm](https://img.shields.io/npm/v/koishi-plugin-latex?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-latex) | 渲染 LaTeX |
+| [plugin-magi](https://github.com/koishijs/plugins/tree/master/plugin-magi) | [![npm](https://img.shields.io/npm/v/koishi-plugin-magi?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-magi) | 调用 [Magi](https://magi.com/) |
+| [plugin-maya](https://github.com/koishijs/plugins/tree/master/plugin-maya) | [![npm](https://img.shields.io/npm/v/koishi-plugin-maya?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-maya) | 计算玛雅日历 |
+| [plugin-mcping](https://github.com/koishijs/plugins/tree/master/plugin-mcping) | [![npm](https://img.shields.io/npm/v/koishi-plugin-mcping?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-mcping) | 获取 Minecraft 服务器信息 |
+| [plugin-oeis](https://github.com/koishijs/plugins/tree/master/plugin-oeis) | [![npm](https://img.shields.io/npm/v/koishi-plugin-oeis?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-oeis) | 调用 [OEIS](https://oeis.org/) |
+| [plugin-qrcode](https://github.com/koishijs/plugins/tree/master/plugin-qrcode) | [![npm](https://img.shields.io/npm/v/koishi-plugin-qrcode?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-qrcode) | 生成二维码 |
+| [plugin-roll](https://github.com/koishijs/plugins/tree/master/plugin-roll) | [![npm](https://img.shields.io/npm/v/koishi-plugin-roll?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-roll) | 掷骰子 |
+| [plugin-vm](https://github.com/koishijs/plugins/tree/master/plugin-vm) | [![npm](https://img.shields.io/npm/v/koishi-plugin-vm?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-vm) | 执行 JavaScript |
+| [plugin-wolfram-alpha](https://github.com/koishijs/plugins/tree/master/plugin-wolfram-alpha) | [![npm](https://img.shields.io/npm/v/koishi-plugin-wolfram-alpha?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-wolfram-alpha) | 调用 [WolframAlpha](https://www.wolframalpha.com/) |

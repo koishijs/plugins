@@ -1,3 +1,3 @@
-# @koishijs/plugin-mcping
+# koishi-plugin-mcping
 
 Ping a Minecraft Server in Koishi.

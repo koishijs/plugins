@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-code-runner",
+  "name": "koishi-plugin-vm",
   "description": "Execute JavaScript in Koishi",
   "main": "index.js",
   "version": "1.0.0",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/koishijs/plugins/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-code-runner#readme",
+  "homepage": "https://github.com/koishijs/plugins/plugin-vm#readme",
   "keywords": [
     "bot",
     "qqbot",

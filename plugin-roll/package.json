@@ -1,5 +1,5 @@
 {
-  "name": "@koishijs/plugin-latex",
+  "name": "koishi-plugin-roll",
   "description": "Roll Dices in Koishi",
   "main": "index.js",
   "version": "1.0.0",
@@ -25,7 +25,7 @@
     "dice"
   ],
   "dependencies": {
-    "koishi-core": "^1.2.0",
+    "koishi-core": "^1.3.0",
     "koishi-utils": "^1.0.2"
   }
 }

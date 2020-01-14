@@ -1,3 +1,3 @@
-# @koishijs/plugin-magi
+# koishi-plugin-magi
 
 Use [Magi](https://magi.com/) in Koishi.
