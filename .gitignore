@@ -1,6 +1,8 @@
 dist
 temp
 
+/image-utils
+/plugin-chess
 /plugin-github-webhook
 /plugin-image-search
 /plugin-monitor
