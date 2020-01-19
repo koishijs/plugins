@@ -2,7 +2,7 @@
   "name": "koishi-plugin-latex",
   "description": "Render LaTeX in Koishi",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -27,6 +27,6 @@
   ],
   "dependencies": {
     "axios": "^0.19.1",
-    "sharp": "^0.23.4"
+    "sharp": "^0.24.0"
   }
 }
