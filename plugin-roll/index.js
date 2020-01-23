@@ -1,8 +1,10 @@
-const { getSenderName } = require('koishi-core')
 const { isInteger } = require('koishi-utils')
 
 module.exports.name = 'roll'
 
+/**
+ * @param { import('koishi-core').Context } ctx context
+ */
 module.exports.apply = (ctx) => {
   ctx.command('roll [times] [max]', '掷骰子')
     .action(({ meta }, _times, _max) => {
@@ -17,11 +19,12 @@ module.exports.apply = (ctx) => {
         values.push(Math.floor(Math.random() * max) + 1)
       }
 
-      return meta.$send(`${getSenderName(meta)} 获得的点数为 ${values.join('+')}${times > 1 ? `=${values.reduce((prev, curr) => prev + curr, 0)}` : ''}`)
+      return meta.$send(`你获得的点数为 ${values.join('+')}${times > 1 ? `=${values.reduce((prev, curr) => prev + curr, 0)}` : ''}`)
     })
 
   ctx.middleware((meta, next) => {
-    const capture = /^\.r(\d{1,2})d(\d{1,5})/i.exec(meta.message.trim())
+    if (!meta.$parsed.prefix) return
+    const capture = /^r(\d{1,2})d(\d{1,5})$/i.exec(meta.$parsed.message)
     if (!capture) return next()
     return ctx.runCommand('roll', meta, [capture[1], capture[2]])
   })
