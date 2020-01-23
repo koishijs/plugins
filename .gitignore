@@ -6,6 +6,7 @@ temp
 /plugin-github-webhook
 /plugin-image-search
 /plugin-monitor
+/plugin-status
 
 todo.md
 yarn.lock

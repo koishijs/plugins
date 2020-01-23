@@ -24,9 +24,5 @@
     "maya",
     "date",
     "calendar"
-  ],
-  "dependencies": {
-    "axios": "^0.19.1",
-    "cheerio": "^1.0.0-rc.3"
-  }
+  ]
 }
