@@ -1,4 +1,3 @@
-const { getSenderName } = require('koishi-core')
 const { CQCode } = require('koishi-utils')
 const { xml2js } = require('xml-js')
 const axios = require('axios')
@@ -15,6 +14,9 @@ function extractData (subpod, inline = false) {
 
 module.exports.name = 'wolfram-alpha'
 
+/**
+ * @param { import('koishi-core').Context } ctx context
+ */
 module.exports.apply = (ctx, { appid } = {}) => {
   if (!appid) throw new Error('missing configuration "appid"')
 
@@ -31,7 +33,7 @@ module.exports.apply = (ctx, { appid } = {}) => {
         if (queryresult._attributes.success !== 'true') {
           return meta.$send('failed')
         }
-        const output = [`Question from ${getSenderName(meta)}: ${input}`]
+        const output = [`Question from ${meta.sender.card || meta.sender.nickname}: ${input}`]
         queryresult.pod.forEach((el) => {
           if (Array.isArray(el.subpod)) {
             output.push(el._attributes.title + ': ', ...el.subpod.map(extractData).filter(t => t))
@@ -41,7 +43,7 @@ module.exports.apply = (ctx, { appid } = {}) => {
             output.push(el._attributes.title + ': ' + text)
           }
         })
-        meta.$send(output.join('\n'))
+        return meta.$send(output.join('\n'))
       } catch (error) {
         console.log(error.toJSON())
       }
@@ -55,7 +57,7 @@ module.exports.apply = (ctx, { appid } = {}) => {
         const { data } = await axios.get('http://api.wolframalpha.com/v1/result', {
           params: { input, appid },
         })
-        meta.$send(data)
+        return meta.$send(data)
       } catch (error) {
         console.log(error.toJSON())
       }
