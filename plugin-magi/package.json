@@ -2,7 +2,7 @@
   "name": "koishi-plugin-magi",
   "description": "Use Magi in Koishi",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
