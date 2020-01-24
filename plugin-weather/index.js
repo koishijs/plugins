@@ -7,8 +7,7 @@ module.exports.name = 'weather'
 
 module.exports.apply = (ctx) => {
   ctx.command('weather <longitude> <latitude>', '查询天气')
-    .action(async ({ meta }, message) => {
-      const [lon, lat] = message.slice(message.indexOf('weather') + 7).trim().split(' ')
+    .action(async ({ meta }, lon, lat) => {
       if (!lon || !lat) return meta.$send('请输入经纬度')
       try {
         const { data } = await axios.get('http://www.7timer.info/bin/civil.php', {
