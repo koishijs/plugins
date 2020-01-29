@@ -1,8 +1,8 @@
 {
-  "name": "koishi-plugin-wolfram-alpha",
-  "description": "Use WolframAlpha in Koishi",
+  "name": "koishi-plugin-brainfuck",
+  "description": "Execute Brainfuck in Koishi",
   "main": "index.js",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/koishijs/plugins/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-wolfram-alpha#readme",
+  "homepage": "https://github.com/koishijs/plugins/plugin-brainfuck#readme",
   "keywords": [
     "bot",
     "qqbot",
@@ -21,16 +21,14 @@
     "chatbot",
     "koishi",
     "plugin",
-    "wolfram",
-    "search",
-    "wolframalpha"
+    "brainfuck",
+    "exec",
+    "execute"
   ],
   "devDependencies": {
     "koishi-core": "^1.7.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "koishi-utils": "^1.0.2",
-    "xml-js": "^1.6.11"
+    "koishi-utils": "^1.0.2"
   }
 }
