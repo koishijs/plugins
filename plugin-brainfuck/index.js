@@ -129,8 +129,10 @@ module.exports.apply = (ctx, _options) => {
     .option('-i, --input <input>', '设置输入', { isString: true, default: '' })
     .action(async ({ meta, options }, source) => {
       if (!source) return meta.$send('请输入源代码。')
+      source = CQCode.unescape(source)
+      const input = CQCode.unescape(options.input)
       try {
-        return meta.$send(new BrainFuck(CQCode.unescape(source)).exec(CQCode.unescape(options.input)))
+        return meta.$send(new BrainFuck(source).exec(input), true)
       } catch (error) {
         if (error.name === 'BFError') {
           return meta.$send(error.message)

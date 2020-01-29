@@ -1,3 +1,3 @@
 # koishi-plugin-brainfuck
 
-Execute brainfuck in Koishi.
+Execute [Brainfuck](https://zh.wikipedia.org/zh-hans/Brainfuck) in Koishi.
