@@ -127,6 +127,7 @@ module.exports.apply = (ctx, _options) => {
   ctx.command('brainfuck <source>', '运行 brainfuck 代码')
     .alias('bf')
     .option('-i, --input <input>', '设置输入', { isString: true, default: '' })
+    .usage('语言介绍：http://www.muppetlabs.com/~breadbox/bf')
     .action(async ({ meta, options }, source) => {
       if (!source) return meta.$send('请输入源代码。')
       source = CQCode.unescape(source)

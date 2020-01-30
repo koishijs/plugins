@@ -4,7 +4,8 @@
 
 | 名称 | 版本 | 功能 |
 |:--|:--|:--|
-| [plugin-brainfuck](https://github.com/koishijs/plugins/tree/master/plugin-brainfuck) | [![npm](https://img.shields.io/npm/v/koishi-plugin-brainfuck?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-brainfuck) | 运行 [Brainfuck](https://zh.wikipedia.org/zh-hans/Brainfuck) |
+| [plugin-brainfuck](https://github.com/koishijs/plugins/tree/master/plugin-brainfuck) | [![npm](https://img.shields.io/npm/v/koishi-plugin-brainfuck?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-brainfuck) | 运行 [Brainfuck](http://www.muppetlabs.com/~breadbox/bf) |
+| [plugin-crypto](https://github.com/koishijs/plugins/tree/master/plugin-crypto) | [![npm](https://img.shields.io/npm/v/koishi-plugin-crypto?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-crypto) | 加密和解密 |
 | [plugin-latex](https://github.com/koishijs/plugins/tree/master/plugin-latex) | [![npm](https://img.shields.io/npm/v/koishi-plugin-latex?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-latex) | 渲染 LaTeX |
 | [plugin-magi](https://github.com/koishijs/plugins/tree/master/plugin-magi) | [![npm](https://img.shields.io/npm/v/koishi-plugin-magi?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-magi) | 调用 [Magi](https://magi.com/) |
 | [plugin-maya](https://github.com/koishijs/plugins/tree/master/plugin-maya) | [![npm](https://img.shields.io/npm/v/koishi-plugin-maya?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-maya) | 计算玛雅日历 |
