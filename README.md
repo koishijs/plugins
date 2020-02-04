@@ -12,6 +12,7 @@
 | [plugin-mcping](https://github.com/koishijs/plugins/tree/master/plugin-mcping) | [![npm](https://img.shields.io/npm/v/koishi-plugin-mcping?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-mcping) | 获取 Minecraft 服务器信息 |
 | [plugin-music](https://github.com/koishijs/plugins/tree/master/plugin-music) | [![npm](https://img.shields.io/npm/v/koishi-plugin-music?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-music) | 点歌 |
 | [plugin-oeis](https://github.com/koishijs/plugins/tree/master/plugin-oeis) | [![npm](https://img.shields.io/npm/v/koishi-plugin-oeis?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-oeis) | 调用 [OEIS](https://oeis.org/) |
+| [plugin-puppeteer](https://github.com/koishijs/plugins/tree/master/plugin-puppeteer) | [![npm](https://img.shields.io/npm/v/koishi-plugin-puppeteer?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-puppeteer) | 网页截图 |
 | [plugin-qrcode](https://github.com/koishijs/plugins/tree/master/plugin-qrcode) | [![npm](https://img.shields.io/npm/v/koishi-plugin-qrcode?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-qrcode) | 生成二维码 |
 | [plugin-roll](https://github.com/koishijs/plugins/tree/master/plugin-roll) | [![npm](https://img.shields.io/npm/v/koishi-plugin-roll?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-roll) | 掷骰子 |
 | [plugin-vm](https://github.com/koishijs/plugins/tree/master/plugin-vm) | [![npm](https://img.shields.io/npm/v/koishi-plugin-vm?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-vm) | 执行 JavaScript |
