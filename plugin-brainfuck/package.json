@@ -26,9 +26,9 @@
     "execute"
   ],
   "devDependencies": {
-    "koishi-core": "^1.8.0"
+    "koishi-core": "^1.8.1"
   },
   "dependencies": {
-    "koishi-utils": "^1.0.2"
+    "koishi-utils": "^1.0.3"
   }
 }

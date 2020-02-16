@@ -2,7 +2,7 @@
   "name": "koishi-plugin-vm",
   "description": "Execute JavaScript in Koishi",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -26,7 +26,7 @@
     "code"
   ],
   "dependencies": {
-    "koishi-utils": "^1.0.2",
+    "koishi-utils": "^1.0.3",
     "vm2": "^3.8.4"
   }
 }

@@ -25,6 +25,6 @@
     "dice"
   ],
   "dependencies": {
-    "koishi-utils": "^1.0.2"
+    "koishi-utils": "^1.0.3"
   }
 }

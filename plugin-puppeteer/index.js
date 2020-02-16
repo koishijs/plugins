@@ -36,7 +36,7 @@ module.exports.apply = (ctx, options = {}) => {
       const data = await page.screenshot({
         encoding: 'base64',
         fullPage: options.fullPage,
-      }) 
+      })
       return meta.$send(`[CQ:image,file=base64://${data}]`)
     })
 }
