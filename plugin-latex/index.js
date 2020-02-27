@@ -9,7 +9,7 @@ module.exports.apply = (ctx) => {
     .action(async ({ meta }, message) => {
       const tex = message.slice(message.indexOf('tex') + 3).trim()
       if (!tex) return meta.$send('请输入要渲染的 LaTeX 代码。')
-      let { data: svg } = await axios.get<string>('https://www.zhihu.com/equation', {
+      let { data: svg } = await axios.get('https://www.zhihu.com/equation', {
         params: { tex },
       })
       const text = svg.match(/>([^<]+)<\/text>/)

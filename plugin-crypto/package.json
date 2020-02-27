@@ -26,6 +26,6 @@
     "decrypt"
   ],
   "dependencies": {
-    "koishi-utils": "^1.0.3"
+    "koishi-utils": "^1.0.4"
   }
 }

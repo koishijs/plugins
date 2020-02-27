@@ -26,7 +26,7 @@
     "code"
   ],
   "dependencies": {
-    "koishi-utils": "^1.0.3",
+    "koishi-utils": "^1.0.4",
     "vm2": "^3.8.4"
   }
 }

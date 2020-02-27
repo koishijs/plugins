@@ -26,6 +26,6 @@
   ],
   "dependencies": {
     "axios": "^0.19.2",
-    "koishi-utils": "^1.0.3"
+    "koishi-utils": "^1.0.4"
   }
 }
