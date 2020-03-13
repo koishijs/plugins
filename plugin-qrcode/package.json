@@ -2,7 +2,7 @@
   "name": "koishi-plugin-qrcode",
   "description": "Generate QR codes in Koishi",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
