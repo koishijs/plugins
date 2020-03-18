@@ -1,18 +1,27 @@
 {
   "name": "koishi-plugin-puppeteer",
   "description": "Take Screenshots in Koishi",
-  "main": "index.js",
-  "version": "1.0.0",
-  "license": "MIT",
+  "version": "2.0.0-alpha.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint src --ext .ts",
+    "prepack": "tsc -b"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koishijs/plugins.git"
+    "url": "git+https://github.com/koishijs/koishi.git"
   },
   "bugs": {
-    "url": "https://github.com/koishijs/plugins/issues"
+    "url": "https://github.com/koishijs/koishi/issues"
   },
-  "homepage": "https://github.com/koishijs/plugins/plugin-puppeteer#readme",
+  "homepage": "https://github.com/koishijs/koishi/packages/plugin-puppeteer#readme",
   "keywords": [
     "bot",
     "qqbot",
@@ -21,10 +30,14 @@
     "chatbot",
     "koishi",
     "plugin",
-    "puppeteer",
-    "screenshot"
+    "screenshot",
+    "puppeteer"
   ],
+  "devDependencies": {
+    "koishi-test-utils": "^4.0.0-alpha.1"
+  },
   "dependencies": {
-    "puppeteer-core": "^2.1.1"
+    "koishi-core": "^2.0.0-alpha.1",
+    "koishi-utils": "^1.0.4"
   }
 }

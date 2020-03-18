@@ -1,35 +1,26 @@
-const puppeteer = require('puppeteer-core')
+import { Context } from 'koishi-core'
+import { Page } from 'puppeteer-core'
+import { freePage, getPage } from './puppeteer'
 
-module.exports.name = 'puppeteer'
-
-module.exports.apply = (ctx, options = {}) => {
-  if (!options.executablePath) {
-    options.executablePath = puppeteer.executablePath()
-  }
-
+export default function apply (ctx: Context) {
   const logger = ctx.logger('puppeteer')
-  const browserPromise = puppeteer.launch(options)
 
-  browserPromise.then(() => logger.info('browser launched'))
-
-  ctx.command('screenshot <url>', '网页截图')
+  ctx.command('screenshot <url>', '网页截图', { authority: 2 })
     .alias('shot')
     .option('-f, --full-page', '对整个可滚动区域截图')
     .action(async ({ meta, options }, url) => {
-      let browser, page
+      let page: Page
       try {
-        browser = await browserPromise
+        page = await getPage()
       } catch (error) {
-        logger.warn(error)
         return meta.$send('无法启动浏览器。')
       }
 
       try {
-        page = await browser.newPage()
         await page.goto(url)
         logger.debug(`navigated to ${url}`)
       } catch (error) {
-        logger.warn(error)
+        freePage(page)
         return meta.$send('无法打开页面。')
       }
 
@@ -37,6 +28,7 @@ module.exports.apply = (ctx, options = {}) => {
         encoding: 'base64',
         fullPage: options.fullPage,
       })
+      freePage(page)
       return meta.$send(`[CQ:image,file=base64://${data}]`)
     })
 }

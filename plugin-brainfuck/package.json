@@ -2,7 +2,7 @@
   "name": "koishi-plugin-brainfuck",
   "description": "Execute Brainfuck in Koishi",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -26,7 +26,7 @@
     "execute"
   ],
   "devDependencies": {
-    "koishi-core": "^1.10.0"
+    "koishi-core": "^1.11.1"
   },
   "dependencies": {
     "koishi-utils": "^1.0.4"
