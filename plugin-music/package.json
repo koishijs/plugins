@@ -2,7 +2,7 @@
   "name": "koishi-plugin-music",
   "description": "Share Music in Koishi",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -26,6 +26,6 @@
   ],
   "dependencies": {
     "axios": "^0.19.2",
-    "koishi-utils": "^1.0.4"
+    "koishi-utils": "^1.0.5"
   }
 }

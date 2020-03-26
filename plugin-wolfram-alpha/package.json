@@ -2,7 +2,7 @@
   "name": "koishi-plugin-wolfram-alpha",
   "description": "Use WolframAlpha in Koishi",
   "main": "index.js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "repository": {
@@ -26,11 +26,11 @@
     "wolframalpha"
   ],
   "devDependencies": {
-    "koishi-core": "^2.0.0-alpha.1"
+    "koishi-core": "^2.0.0-alpha.7"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "koishi-utils": "^1.0.4",
+    "koishi-utils": "^1.0.5",
     "xml-js": "^1.6.11"
   }
 }
